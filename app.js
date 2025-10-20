@@ -10,6 +10,7 @@ const app = express();
 //INFO: Connect to database
 connectDB();
 
+
 //INFO: Initialising Middleware
 app.use(express.json()); // Body parser
 app.use(cors());
